@@ -146,13 +146,30 @@ header {
   font-size: 1.3rem;
 }
 
+.video-wrap {
+  position: relative;
+  width: 100%;
+}
+
 .video {
-  width: 560px; 
-  height: 315px; 
+  position: relative;
+  width: 125%;
+  height: 600px;
+  left: -10%;
+  top: 6%;
+}
+
+
+.player {
+  position: absolute;
+  z-index: 99;
+  left: 48%;
+  top: 235%;
 }
 
 /* FOOTER */
 .footer {
+  margin-top: 6%;
   padding: 2%;
 }
 
