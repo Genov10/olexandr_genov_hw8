@@ -1,0 +1,161 @@
+/* RESET */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1;
+  font-size: 1rem;
+  font-family:Roboto, Helvetica, sans-serif;
+}
+
+a,
+p {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+/* MAIN */
+.wrapper {
+  width: 58%;
+}
+
+.wrapper,
+.primary {
+  margin: 0 auto;
+}
+
+.about_title,
+.work__title {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.about__text,
+.work__text {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.header__text,
+.about__text,
+.work__text {
+  color: #727272;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.projects,
+.footer {
+  background-color: #34547A;
+  color: #EEEFF1;
+}
+
+/* HEADER */
+
+header {
+  background-color: #EEEFF1;
+  padding: 79px 0 162px;
+}
+
+.menu-wrap {
+  margin-bottom: 16%;
+}
+
+.menu {
+  font-size: 0;
+}
+
+.menu>.menu__item {
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 3.8%;
+}
+
+.menu>.menu__item>.menu__link {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.menu__link--curent {
+  color: #34547A;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.menu>.menu__item>.menu__link:hover {
+  color: #ff6600;
+  transition: all 0.5s;
+}
+
+.header__text {
+  width: 50%;
+}
+
+
+.hero__btn--wrap {
+  margin-top: 7%;
+}
+
+.hero__btn--btn {
+  background-color: #34547A;
+  padding: 20px 41px;
+  color: #EEEFF1;
+}
+
+.hero__btn--btn:hover {
+  background-color: #ff6600;
+  transition: all 0.5s;
+}
+/* ABOUT */
+
+.projects>.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.projects__wrap {
+  padding: 13% 4%;
+  display: flex;
+  flex-direction: row;
+}
+
+.projects__wrap:hover {
+  background-color: #ff6600;
+  transition: all 0.5s;
+}
+
+.projects__description {
+  margin-left: 10%;
+}
+
+.projects__titel {
+  font-size: 1.3rem;
+}
+
+.video {
+  width: 560px; 
+  height: 315px; 
+}
+
+/* FOOTER */
+.footer {
+  padding: 2%;
+}
+
+.footer__info {
+  font-size: 0.7rem;
+}
